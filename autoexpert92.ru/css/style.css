@@ -15,6 +15,8 @@ r {
     color: #f5124a;
 }
 
+
+
 .header {
     background: url(../images/bg.jpg) center no-repeat;
     background-size: cover;
@@ -26,7 +28,6 @@ r {
     background-size: cover;
     width: 100%;
     height: 100%;
-    opacity: 0.78;
 }
 
 .car {
@@ -42,7 +43,8 @@ r {
 }
 
 .border-bottom, .border-left {
-    border-color:#3b4049!important;
+    border-color: rgba(164, 169, 188, 0.12)!important;
+
 }
 
 .tel {
@@ -58,4 +60,26 @@ r {
 
 .home {
     margin-top: 110px;
+    padding-left: 0px;
+    color: #fff9f9;
+    font-size: 18px;
+}
+
+.consultation {
+    margin-top: 50px;
+    padding-left: 0px;
+    color: #fff9f9;
+    font-size: 19px;
+}
+
+.button {
+    display:inline-block;
+    height: 242px;
+    width: 274px;
+    background: url(../images/btn.png) right 0 no-repeat;
+}
+
+.button:hover {
+    background: url(../images/btn_hover.png) right 0 no-repeat;
+
 }
