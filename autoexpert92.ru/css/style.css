@@ -1,6 +1,14 @@
 html,body {
     font-family: FuturaPT;
+    font-size: 17px;
     color: #c4c7d3;
+}
+
+h1 {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 56px;
+    color: #f5f5f5;
 }
 
 r {
@@ -25,4 +33,29 @@ r {
     background: url(../images/car.png) bottom no-repeat;
     background-size: contain;
     height: 100%;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.border-bottom, .border-left {
+    border-color:#3b4049!important;
+}
+
+.tel {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.number {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home {
+    margin-top: 110px;
 }
