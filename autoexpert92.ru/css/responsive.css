@@ -1,0 +1,43 @@
+/* Экстрамалые девайсы («портретные тел*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-family: Raleway;
+        font-weight: 900;
+        font-size: 24px;
+        color: #f5f5f5;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .button, .button:hover {
+        height: 205px;
+        width: 229px;
+        background-position: center;
+    }
+
+}
+
+/* Малые девайсы («ландшафтные телефоны», >= 576px)*/
+@media (min-width: 576px) {
+    h1 {
+        font-size: 56px;
+    }
+ }
+
+/* Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+    .car {
+        background: url(../images/car.png) bottom no-repeat;
+        background-size: contain;
+        height: 100%;
+    }
+}
+
+/* Большие девайсы (десктопы, >= 992px)*/
+@media (min-width: 992px) { ... }
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) { ... }
