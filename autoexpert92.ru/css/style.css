@@ -15,6 +15,9 @@ r {
     color: #f5124a;
 }
 
+.container {
+    max-width: 1200px;
+}
 
 .header {
     background: url(../images/bg.jpg) center no-repeat;
@@ -41,7 +44,11 @@ r {
     text-transform: uppercase;
 }
 
-.border-bottom, .border-left {
+.title {
+    margin-left: 26px;
+}
+
+.border-bottom, .border-left, .border-right {
     border-color: rgba(164, 169, 188, 0.12)!important;
 
 }
@@ -59,7 +66,7 @@ r {
 }
 
 .home {
-    margin-top: 110px;
+    margin-top: 60px;
     padding-left: 0;
     color: #fff9f9;
     font-size: 18px;
