@@ -1,15 +1,33 @@
 /* Экстрамалые девайсы («портретные тел*/
 @media (max-width: 575.98px) {
+    html,body {
+        font-size: 16px;
+    }
+
     h1 {
         font-family: Raleway;
         font-weight: 900;
-        font-size: 24px;
+        font-size: 28px;
         color: #f5f5f5;
+    }
+
+    .header {
+        height: 800px;
+
     }
 
     .container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .number {
+        margin-top: 233px;
+        font-size: 20px;
+    }
+
+    .consultation {
+        font-size: 17px;
     }
 
     .button, .button:hover {
@@ -34,6 +52,14 @@
         background-size: contain;
         height: 100%;
     }
+
+    .header-shadow {
+        background: url(../images/bg1.png) center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 /* Большие девайсы (десктопы, >= 992px)*/

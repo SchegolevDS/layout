@@ -24,13 +24,6 @@ r {
     height: 890px;
 }
 
-.header-shadow {
-    background: url(../images/bg1.png) center no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
 .logo {
     font-family: Raleway;
     font-size: 18px;
@@ -81,6 +74,8 @@ r {
 }
 
 .button:hover {
+    height: 242px;
+    width: 274px;
     background: url(../images/btn_hover.png) right 0 no-repeat;
-
+    background-size: cover;
 }
