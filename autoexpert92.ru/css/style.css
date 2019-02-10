@@ -14,6 +14,10 @@ r {
     color: #f5124a;
 }
 
+img {
+    height: 100%;
+}
+
 .container {
     max-width: 1200px;
 }
@@ -24,6 +28,11 @@ r {
     height: 890px;
 }
 
+.border-bottom, .border-left, .border-right {
+    border-color: rgba(164, 169, 188, 0.12)!important;
+
+}
+
 .logo {
     font-family: Raleway;
     font-size: 18px;
@@ -32,15 +41,10 @@ r {
 
 .title {
     margin-left: 26px;
-}
-
-.border-bottom, .border-left, .border-right {
-    border-color: rgba(164, 169, 188, 0.12)!important;
-
+    padding-left: 46px;
 }
 
 .number {
-    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
 }

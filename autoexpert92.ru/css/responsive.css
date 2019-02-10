@@ -1,5 +1,5 @@
-/* Экстрамалые девайсы («портретные тел*/
-@media (max-width: 575.98px) {
+/* Малые девайсы («телефоны < 768px)*/
+@media (max-width: 767.98px) {
     html,body {
         font-size: 16px;
     }
@@ -41,15 +41,17 @@
 
 }
 
-/* Малые девайсы («ландшафтные телефоны», >= 576px)*/
-@media (min-width: 576px) {
+/* Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 768px) {
+
     h1 {
         font-size: 56px;
     }
- }
 
-/* Средние девайсы («таблетки», >= 768px)*/
-@media (min-width: 768px) {
+    .number {
+        font-size: 20px;
+    }
+
     .car {
         background: url(../images/car.png) bottom no-repeat;
         background-size: contain;
@@ -66,7 +68,11 @@
 }
 
 /* Большие девайсы (десктопы, >= 992px)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    .number {
+        font-size: 26px;
+    }
+}
 
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
 @media (min-width: 1200px) { ... }
