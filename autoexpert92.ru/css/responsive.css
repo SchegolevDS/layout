@@ -7,7 +7,7 @@
     h1 {
         font-family: Raleway;
         font-weight: 900;
-        font-size: 28px;
+        font-size: 24px;
         color: #f5f5f5;
     }
 
@@ -54,7 +54,7 @@
 
     .car {
         background: url(../images/car.png) bottom no-repeat;
-        background-size: contain;
+        background-size: cover;
         height: 100%;
     }
 
@@ -65,13 +65,39 @@
         height: 100%;
     }
 
+    .title {
+        font-size:12px;
+    }
+
 }
 
 /* Большие девайсы (десктопы, >= 992px)*/
 @media (min-width: 992px) {
+
+    h1 {
+        font-size: 56px;
+    }
+
     .number {
         font-size: 26px;
     }
+
+
+
+    .title {
+        padding-left: 46px;
+        font-size: 17px;
+    }
+
+    .button {
+        margin-left: 80px;
+    }
+
+    .car {
+        background-size: contain;
+        height: 100%;
+    }
+
 }
 
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px)*/

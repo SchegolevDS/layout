@@ -14,6 +14,11 @@ r {
     color: #f5124a;
 }
 
+a:hover {
+    text-decoration: none;
+
+}
+
 img {
     height: 100%;
 }
@@ -41,7 +46,6 @@ img {
 
 .title {
     margin-left: 26px;
-    padding-left: 46px;
 }
 
 .number {
