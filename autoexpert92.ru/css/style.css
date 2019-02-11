@@ -1,31 +1,15 @@
-html,body {
-    font-family: FuturaPT;
-    font-size: 17px;
-    color: #c4c7d3;
-}
-
-h1 {
-    font-family: Raleway;
-    font-weight: 900;
-    color: #f5f5f5;
-}
-
-r {
-    color: #f5124a;
-}
-
-a:hover {
-    text-decoration: none;
-
-}
-
-img {
-    height: 100%;
-}
-
-.container {
-    max-width: 1200px;
-}
+html,body {font-family: FuturaPT;font-size: 17px;color: #c4c7d3}
+h1 {font-family: Raleway;font-weight: 900;color: #f5f5f5}
+h2 {font-family: Raleway;font-weight: 700;color: #000000;text-align: center}
+h3 {font-family: Raleway;font-weight: 700;color: #000000}
+h4 {font-size: 27px;line-height: 33px;color: #72747b}
+h5 {font-weight: 800;color: #ffffff}
+r {color: #f5124a}
+a:hover {text-decoration: none}
+img {height: 100%}
+.headtext{color: #fff9f9}
+.container {max-width: 1200px}
+.title {margin-left: 26px}
 
 .header {
     background: url(../images/bg.jpg) center no-repeat;
@@ -35,17 +19,12 @@ img {
 
 .border-bottom, .border-left, .border-right {
     border-color: rgba(164, 169, 188, 0.12)!important;
-
 }
 
 .logo {
     font-family: Raleway;
     font-size: 18px;
     text-transform: uppercase;
-}
-
-.title {
-    margin-left: 26px;
 }
 
 .number {
@@ -63,7 +42,6 @@ img {
     margin-top: 60px;
     padding-left: 0;
     color: #fff9f9;
-    font-size: 18px;
 }
 
 .consultation {
@@ -88,8 +66,29 @@ img {
     background-size: cover;
 }
 
-.about {
-    height: 1000px;
+.about {color: #383838}
+.about img {height: auto}
+.about .img {height: 230px}
+
+.professional {
+    background: url(../images/bg.png) center;
+    background-size: cover;
+    color: #e6e6e6;
+}
+.professional h2 {color: #ffffff}
+
+.know {
+    padding-top: 50px;
+    height: 900px;
+    background: url(../images/bg2.png) center;
+    background-size: cover;
+    color: #383838;
+}
+
+
+
+.footer {
+    padding: 38px 0 60px 0;
 }
 
 
