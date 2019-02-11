@@ -88,16 +88,16 @@ img {
     background-size: cover;
 }
 
-
-
-
+.about {
+    height: 1000px;
+}
 
 
 .img-circle{background-color:#f5124a;box-sizing:content-box;-webkit-box-sizing:content-box;}
 .circlephone{box-sizing:content-box;-webkit-box-sizing:content-box;border: 2px solid #f5124a;width:75px;height:75px;bottom:-5px;right:30px;position:absolute;-webkit-border-radius:100%;-moz-border-radius: 100%;border-radius: 100%;opacity: .5;-webkit-animation: circle-anim 2.4s infinite ease-in-out !important;-moz-animation: circle-anim 2.4s infinite ease-in-out !important;-ms-animation: circle-anim 2.4s infinite ease-in-out !important;-o-animation: circle-anim 2.4s infinite ease-in-out !important;animation: circle-anim 2.4s infinite ease-in-out !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
 .circle-fill{box-sizing:content-box;-webkit-box-sizing:content-box;width:36px;height:36px;bottom: 14px;right: 49px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;box-shadow: 0px 11px 27px 0px rgba(243, 62, 107, 0.27);}
 .img-circle{box-sizing:content-box;-webkit-box-sizing:content-box;width:36px;height:36px;bottom: 14px;right: 49px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;opacity: .7;}
-.img-circleblock{box-sizing:content-box;-webkit-box-sizing:content-box;width:36px;height:36px;background-image:url(../images/mini.png);background-position: center center;background-repeat:no-repeat;animation-name: tossing;-webkit-animation-name: tossing;animation-duration: 1.5s;-webkit-animation-duration: 1.5s;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+.img-circleblock{box-sizing:content-box;-webkit-box-sizing:content-box;width:36px;height:36px;background-image:url(../images/telephone.svg);background-position: center center;background-repeat:no-repeat;animation-name: tossing;-webkit-animation-name: tossing;animation-duration: 1.5s;-webkit-animation-duration: 1.5s;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
 .img-circle:hover{opacity: 1;}
 @keyframes pulse {0% {transform: scale(0.9);opacity: 1;}
   50% {transform: scale(1); opacity: 1; }
