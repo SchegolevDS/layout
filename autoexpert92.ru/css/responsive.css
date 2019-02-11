@@ -39,6 +39,13 @@
         background-position: center;
     }
 
+    #popup__toggle {
+        top:80px;
+        right:-25px;
+        position:fixed;
+        z-index:999;
+    }
+
 }
 
 /* Средние девайсы («таблетки», >= 768px)*/
@@ -69,6 +76,13 @@
         font-size:12px;
     }
 
+    #popup__toggle {
+        top:80px;
+        right:-25px;
+        position:fixed;
+        z-index:999;
+    }
+
 }
 
 /* Большие девайсы (десктопы, >= 992px)*/
@@ -97,6 +111,19 @@
         background-size: contain;
         height: 100%;
     }
+
+    #popup__toggle {
+        bottom:80px;
+        right:25px;
+        position:fixed;
+        z-index:999;
+    }
+
+    .circlephone {width:150px;height:150px;bottom:-25px;right:10px;}
+    .circle-fill {width:100px;height:100px;bottom:0px;right:35px;}
+    .img-circle {width:72px;height:72px;bottom: 14px;right: 49px;}
+    .img-circleblock {width:72px;height:72px; background-size: 30px;}
+
 
 }
 
