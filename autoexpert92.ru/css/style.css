@@ -108,6 +108,10 @@ img {height: 100%}
     background-color: rgba(245, 18, 74, 0.23);
 }
 
+.button-drop-bg:focus {
+    background-color: rgba(245, 18, 74, 0.23);
+}
+
 .dropdown-menu {
     border: 1px solid #f5124a;
     width: 320px;
