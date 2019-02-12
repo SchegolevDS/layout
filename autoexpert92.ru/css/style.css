@@ -85,12 +85,43 @@ img {height: 100%}
     color: #383838;
 }
 
-
-
-.footer {
-    padding: 38px 0 60px 0;
+.button-drop {
+    height: 46px;
+    width: 46px;
+    font-size: 27px;
+    color: #ffffff;
+    background-color: #f5124a;
+    border-style: none;
+    border-radius: 25px 25px 25px 25px;
 }
 
+.button-drop-bg {
+    z-index: 0;
+    height: 67px;
+    width: 67px;
+    border-style: none;
+    border-radius: 35px 35px 35px 35px;
+    background-color: rgba(245, 18, 74, 0);
+}
+
+.button-drop-bg:hover {
+    background-color: rgba(245, 18, 74, 0.23);
+}
+
+.dropdown-menu {
+    border: 1px solid #f5124a;
+    width: 320px;
+}
+
+
+.map {
+    height: 740px; width: 100%; top: 0px; left: 0px; right: 0px;
+}
+
+.footer {
+    padding: 38px 0 80px 0;
+}
+.footer .logo{color: #000000}
 
 .img-circle{background-color:#f5124a;box-sizing:content-box;-webkit-box-sizing:content-box;}
 .circlephone{box-sizing:content-box;-webkit-box-sizing:content-box;border: 2px solid #f5124a;width:75px;height:75px;bottom:-5px;right:30px;position:absolute;-webkit-border-radius:100%;-moz-border-radius: 100%;border-radius: 100%;opacity: .5;-webkit-animation: circle-anim 2.4s infinite ease-in-out !important;-moz-animation: circle-anim 2.4s infinite ease-in-out !important;-ms-animation: circle-anim 2.4s infinite ease-in-out !important;-o-animation: circle-anim 2.4s infinite ease-in-out !important;animation: circle-anim 2.4s infinite ease-in-out !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}

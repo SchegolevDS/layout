@@ -92,6 +92,11 @@
 
     .professional {padding: 50px 0 50px 0;font-size: 27px;line-height: 30px}
 
+    .know-1 {margin-left: 215px}
+    .know-2 {margin-left: 650px}
+    .know-3 {margin-left: 325px; margin-top: 160px}
+    .know-4 {margin-left: 675px}
+
 /* Большие девайсы (десктопы, >= 992px)*/
 @media (min-width: 992px) {
 

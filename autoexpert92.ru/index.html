@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=26747bc1-029b-4a9b-983a-9d90e83d7a53&lang=ru_RU" type="text/javascript"></script>
   </head>
   <body>
     <header class="header">
@@ -195,14 +196,82 @@
             </div>
         </div>
     </div>
-
     <div class="know">
         <div class="container">
             <h2><r>Важно</r> знать:</h2>
+
+            <div class="col d-none d-md-block" style="padding-top: 70px">
+                <div class="know-1 col-lg-1 pt-3 pt-md-0" align="center">
+                    <div class="btn-group dropdown">
+                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
+                        <div class="dropdown-menu p-2">
+                            Аварийный комиссар — это либо работник страховой
+                            компании, который действует в её интересах,
+                            либо независимое физическое или юридическое лицо,
+                            у которого в интересах помощь вам.
+                            Мы же относимся ко второму типу: самый объективный
+                            и надежный вариант для решения ваших проблем
+                        </div>
+                    </div>
+                </div>
+                <div class="know-2 col-lg-1 pt-3 pt-md-0"  align="center">
+                    <div class="btn-group dropright">
+                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
+                        <div class="dropdown-menu p-2">
+                            Страховые компании часто скрывают реальную сумму
+                            ущерба и если не обладать достаточными знаниями
+                            и опытом в юридических вопросах, есть риск
+                            не получить часть страховой выплаты
+                        </div>
+                    </div>
+                </div>
+                <div class="know-3 col-lg-1 pt-3 pt-md-0"  align="center">
+                    <div class="btn-group dropleft">
+                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
+                        <div class="dropdown-menu p-2">
+                            В результате эмоционального напряжения и стресса
+                            в следствии ДТП можно упустить множество важных деталей
+                            документально, из-за которых в последствии могут
+                            возникнуть трудности. Оставьте это профессионалам
+                        </div>
+                    </div>
+                </div>
+                <div class="know-4 col-lg-1 pt-3 pt-md-0" align="center">
+                    <div class="btn-group dropdown">
+                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
+                        <div class="dropdown-menu p-2">
+                            Мы гарантированно добиваемся выплат от страховой,
+                            потому как изначально возмещаем вам до 80% ущерба
+                            со своего кармана. Гарантия результата и в наших
+                            интересах в том числе
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
     </div>
 
+    <div class="contacts">
+        <h2>Наши контакты:</h2>
+        <div align="center" id="map" class="map">
+            <script type="text/javascript">
+            ymaps.ready(init);
+            function init(){var myMap = new ymaps.Map("map", {
+                  center: [44.574575, 33.465703],
+                  zoom: 18});
+                  myGeoObject = new ymaps.GeoObject({
+                  }, {preset: 'islands#blackStretchyIcon',
+                      draggable: true});
+              myMap.geoObjects
+                  .add(new ymaps.Placemark([44.574575, 33.465703], {
+                      balloonContent: 'Auto <strong>Expert</strong>'
+                  }, {preset: 'islands#icon',
+                      iconColor: '#e2481f'}))}
+            </script>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="container">
@@ -222,7 +291,10 @@
         </div>
     </footer>
 
-      <script src="js/jquery-3.2.1.min.js"></script>
-      <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
