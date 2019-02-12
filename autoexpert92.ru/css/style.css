@@ -4,6 +4,7 @@ h2 {font-family: Raleway;font-weight: 700;color: #000000;text-align: center}
 h3 {font-family: Raleway;font-weight: 700;color: #000000}
 h4 {font-size: 27px;line-height: 33px;color: #72747b}
 h5 {font-weight: 800;color: #ffffff}
+h6 {font-weight: 800;color: #b5b5b5}
 r {color: #f5124a}
 a:hover {text-decoration: none}
 img {height: 100%}
@@ -117,8 +118,33 @@ img {height: 100%}
     width: 320px;
 }
 
+#contacts {
+
+}
+
+
+.contacts {
+    background-color: #ffffff;
+    box-shadow: 6px 2px 58px 1px rgba(130, 130, 130, 0.29);
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    color: #383838;
+}
+
+.contacts .border {
+    border-radius: 6px;
+    border: 2px dashed #f5124a!important;
+}
+
+.contacts img {
+    height: auto;
+}
+
+
 
 .map {
+    position: relative;
     height: 740px; width: 100%; top: 0px; left: 0px; right: 0px;
 }
 

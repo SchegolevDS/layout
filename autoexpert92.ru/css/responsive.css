@@ -50,6 +50,7 @@
     h2 {font-size: 42px;line-height: 54px}
     h3 {font-size: 21px;line-height: 32px}
     h5 {font-size: 100px;line-height: 54px;letter-spacing: 2px;margin: 66px 0 26px 0}
+    h6 {font-size: 16px;line-height: 35px;letter-spacing: 0.92px}
     small {font-size: 32px}
 
     .number {font-size: 20px;}
@@ -97,16 +98,19 @@
     .know-3 {margin-left: 325px; margin-top: 160px}
     .know-4 {margin-left: 675px}
 
+    .contacts {width: 284px;height: 260px;font-size: 16px;margin: 230px 0 -660px 20px}
+    .contacts .border {width: 246px;height: 224px)
+}
 /* Большие девайсы (десктопы, >= 992px)*/
 @media (min-width: 992px) {
-
+    h6 {font-size: 23px;line-height: 35px;letter-spacing: 0.92px}
 
     .number {font-size: 26px;}
     .title {padding-left: 46px;font-size: 17px;}
     .button {margin-left: 80px;}
     .car {background-size: contain;}
-
-
+    .contacts {width: 484px;height: 460px;font-size: 25px;margin: 260px 0 -660px 430px}
+    .contacts .border {width: 446px;height: 424px;)
 
 }
 
