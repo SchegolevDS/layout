@@ -4,9 +4,10 @@ h2 {font-family: Raleway;font-weight: 700;color: #000000;text-align: center}
 h3 {font-family: Raleway;font-weight: 700;color: #000000}
 h4 {font-size: 27px;line-height: 33px;color: #72747b}
 h5 {font-weight: 800;color: #ffffff}
-h6 {font-weight: 800;color: #b5b5b5}
+h6 {font-weight: 800;color: #b5b5b5;text-transform: uppercase}
 r {color: #f5124a}
-a:hover {text-decoration: none}
+a {color: #000000}
+a:hover {color:#f5124a;text-decoration: none}
 img {height: 100%}
 .headtext{color: #fff9f9}
 .container {max-width: 1200px}
