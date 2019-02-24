@@ -1,329 +1,423 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Аварийный комиссар в Севастополе - AutoExpert</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=26747bc1-029b-4a9b-983a-9d90e83d7a53&lang=ru_RU" type="text/javascript"></script>
-  </head>
-  <body>
-    <header id="home" class="header">
-        <div class="car">
-            <div class="header-shadow">
-                <div class="container">
-                    <nav>
-                        <div class="d-none d-md-block">
-                            <div class="row pt-4 border-bottom">
-                                <div class="col-auto logo pr-0 align-self-center">
-                                  <r>Auto</r>expert
-                                </div>
-                                <div class="col row title  mr-0 pr-0 border-left border-right align-items-center">
-                                    <div class="col-5 row">
-                                        <img src="./images/icon1.png" alt="">
-                                        <div class="col">
-                                            Аварийный комиссар в Севастополе
-                                        </div>
-                                    </div>
-                                    <div class="col-5 row">
-                                        <img src="./images/icon2.png" alt="">
-                                        <div class="col col-lg-7">
-                                            Опыт компании с 2014 года
-                                        </div>
-                                    </div>
-                                    <div class="col-auto ml-auto">
-                                        <img src="./images/icon3.png" class="p-lg-2" alt="">
-                                        Круглосуточно
-                                    </div>
-                                </div>
-                                <div class="col-auto align-self-center">
-                                    <a href="tel:+79781000792"><r class="number">8 978 1000 792</r></a><br>
-                                    <r class="tel">Перезвонить вам?</r>
-                                </div>
-                            </div>
-                            <div class="row pt-2">
-                                <div class="col-auto col-lg-2 ml-auto p-lg-0">
-                                      Мы вконтакте: <a href="#"><img src="./images/vklg.png" style="height: 17px" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="d-md-none">
-                            <div class="row pt-2 justify-content-between">
-                                <div class="col-auto"><img src="./images/vk.png" style="height: 15px" alt=""></div>
-                                <div class="col-auto logo">
-                                    <r>Auto</r>expert
-                                </div>
-                                <div class="col-auto"><img src="./images/tel.png" style="height: 19px" alt=""></div>
-                            </div>
-                            <div class="col-auto pt-2" align="center">
-                                <a href="tel:+79781000792"><r class="number">8 978 1000 792</r></a><br>
-                                г. Севастополь
-                            </div>
-                        </div>
-                    </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Аварийный комиссар в Севастополе - AutoExpert</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=26747bc1-029b-4a9b-983a-9d90e83d7a53&lang=ru_RU" type="text/javascript"></script>
+</head>
 
-                    <div class="home col-12 col-lg-7">
-                        <h1>Прибытие аварийного комиссара на <r>ДТП</r> <br> в течение <r>20 минут</r></h1>
-                    </div>
-                    <div class="row headtext">
-                        <div class="col-10 col-md-9 col-lg-7 row order-3 order-md-1 mx-auto mx-md-0 mt-md-3 mt-lg-0">
-                            <div class="col-md-6 row m-0 mt-3">
-                                <img src="./images/icon_outline1.png" style="height: 71px" alt="">
-                                <div class="col align-self-center">
-                                    Страховые Выплаты <br> в течение 3-х дней
-                                </div>
-                            </div>
-                            <div class="col col-md-6 row m-0 mt-3">
-                                <img src="./images/icon_outline2.png" style="height: 71px" alt="">
-                                <div class="col align-self-center">
-                                    Без замудренных <br> доверенностей
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-7 order-1 order-md-2">
-                            <div class="consultation col-6 pl-2 pl-md-0 mx-auto mx-md-0">
-                                Позвоните нам и мы проконсультируем <br> вас <r>бесплатно</r>!
-                            </div>
-                        </div>
-                        <div class="col-auto col-lg-7 mx-auto mx-md-0 order-2 order-md-3 p-0">
-                            <a href="#" class="button"></a>
-                        </div>
-                    </div>
-                    <a href="#" id="popup__toggle" onclick="return false;"><div class="circlephone" style="transform-origin: center;"></div><div class="circle-fill" style="transform-origin: center; "></div><div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div></a>
-
-
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div id="about" class="about">
+<body>
+  <header id="home" class="header">
+    <div class="car">
+      <div class="header-shadow">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col p-0" align="center">
-                    <div class="col-lg-7">
-                        <h2>Полный комплекс мер <br>по защите <r>ваших интересов</r></h2>
-                    </div>
-                    <div class="col-lg-4 p-0 pt-2 d-none d-md-block">
-                        <h4>Мы будем рядом с момента ДТП <br>до получения выплат от страховой</h4>
-                    </div>
+          <nav>
+            <div class="d-none d-md-block">
+              <div class="row pt-4 border-bottom">
+                <div class="col-auto logo pr-0 align-self-center">
+                  <r>Auto</r>expert
                 </div>
+                <div class="col row title  mr-0 pr-0 border-left border-right align-items-center">
+                  <div class="col-5 row">
+                    <img src="./images/icon1.png" alt="">
+                    <div class="col">
+                      Аварийный комиссар в Севастополе
+                    </div>
+                  </div>
+                  <div class="col-5 row">
+                    <img src="./images/icon2.png" alt="">
+                    <div class="col col-lg-7">
+                      Опыт компании с 2014 года
+                    </div>
+                  </div>
+                  <div class="col-auto ml-auto">
+                    <img src="./images/icon3.png" class="p-lg-2" alt="">
+                    Круглосуточно
+                  </div>
+                </div>
+                <div class="col-auto align-self-center">
+                  <a href="tel:+79781000792">
+                    <r class="number">8 978 1000 792</r>
+                  </a><br>
+                  <r class="tel">Перезвонить вам?</r>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-auto col-lg-2 ml-auto p-lg-0">
+                  Мы вконтакте: <a href="#"><img src="./images/vklg.png" style="height: 17px" alt=""></a>
+                </div>
+              </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-8 col-md-6 col-lg-3">
-                    <div class="row img align-content-end justify-content-center" align="center">
-                        <img src="./images/legal.png" alt="">
-                    </div>
-                    <div class="col px-0">
-                        <h3>Юридическая помощь без  сотрудника ГИБДД</h3>
-                        Разберем вашу ситуацию на месте, правильно оформим ДТП и
-                        подскажем что делать дальше
-                    </div>
+
+            <div class="d-md-none">
+              <div class="row pt-2 justify-content-between">
+                <div class="col-auto"><img src="./images/vk.png" style="height: 15px" alt=""></div>
+                <div class="col-auto logo">
+                  <r>Auto</r>expert
                 </div>
-                <div class="col-8 col-md-6 col-lg-3 pt-lg-5 mt-lg-5">
-                    <div class="row img align-content-end justify-content-center">
-                        <img src="./images/assessment.png" alt="">
-                    </div>
-                    <div class="px-2 px-0">
-                        <h3>Независимая оценка ущерба вашему ТС</h3>
-                        Составим акт осмотра <br> и тех состояния ТС <br>
-                        и грамотно
-                        оценим ваш страховой случай
-                    </div>
-                </div>
-                <div class="col-8 col-md-6 col-lg-3 pt-lg-5 mt-lg-5">
-                    <div class="row img align-content-end justify-content-center">
-                        <img src="./images/money.png" alt="">
-                    </div>
-                    <div class="col px-0">
-                        <h3>Быстрая выплата из нашего кармана</h3>
-                        Подписываем договор о сотрудничестве и возмещаем вам
-                        до 80% ущерба в течение 3 дней
-                    </div>
-                </div>
-                <div class="col-8 col-md-6 col-lg-3">
-                    <div class="row img align-content-end justify-content-center">
-                        <img src="./images/damage.png" alt="">
-                    </div>
-                    <div class="col px-0">
-                        <h3>Взыскание ущерба по ОСАГО и КАСКО</h3>
-                        Самостоятельно и в рамках закона добиваемся выплат
-                        от страховой, экономя ваше время и нервы
-                    </div>
-                </div>
+                <div class="col-auto"><img src="./images/tel.png" style="height: 19px" alt=""></div>
+              </div>
+              <div class="col-auto pt-2" align="center">
+                <a href="tel:+79781000792">
+                  <r class="number">8 978 1000 792</r>
+                </a><br>
+                г. Севастополь
+              </div>
             </div>
+          </nav>
+
+          <div class="home col-12 col-lg-7">
+            <h1>Прибытие аварийного комиссара на <r>ДТП</r> <br> в течение <r>20 минут</r>
+            </h1>
+          </div>
+          <div class="row headtext">
+            <div class="col-10 col-md-9 col-lg-7 row order-3 order-md-1 mx-auto mx-md-0 mt-md-3 mt-lg-0">
+              <div class="col-md-6 row m-0 mt-3">
+                <img src="./images/icon_outline1.png" style="height: 71px" alt="">
+                <div class="col align-self-center">
+                  Страховые Выплаты <br> в течение 3-х дней
+                </div>
+              </div>
+              <div class="col col-md-6 row m-0 mt-3">
+                <img src="./images/icon_outline2.png" style="height: 71px" alt="">
+                <div class="col align-self-center">
+                  Без замудренных <br> доверенностей
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-md-2">
+              <div class="consultation col-6 pl-2 pl-md-0 mx-auto mx-md-0">
+                Позвоните нам и мы проконсультируем <br> вас <r>бесплатно</r>!
+              </div>
+            </div>
+            <div class="col-auto col-lg-7 mx-auto mx-md-0 order-2 order-md-3 p-0">
+              <a href="#" class="button"></a>
+            </div>
+          </div>
+          <a href="#" id="popup__toggle" onclick="return false;">
+            <div class="circlephone" style="transform-origin: center;"></div>
+            <div class="circle-fill" style="transform-origin: center; "></div>
+            <div class="img-circle" style="transform-origin: center;">
+              <div class="img-circleblock" style="transform-origin: center;"></div>
+            </div>
+          </a>
+
+
         </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col p-0" align="center">
+          <div class="col-lg-7">
+            <h2>Полный комплекс мер <br>по защите <r>ваших интересов</r>
+            </h2>
+          </div>
+          <div class="col-lg-4 p-0 pt-2 d-none d-md-block">
+            <h4>Мы будем рядом с момента ДТП <br>до получения выплат от страховой</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-8 col-md-6 col-lg-3">
+          <div class="row img align-content-end justify-content-center" align="center">
+            <img src="./images/legal.png" alt="">
+          </div>
+          <div class="col px-0">
+            <h3>Юридическая помощь без сотрудника ГИБДД</h3>
+            Разберем вашу ситуацию на месте, правильно оформим ДТП и
+            подскажем что делать дальше
+          </div>
+        </div>
+        <div class="col-8 col-md-6 col-lg-3 pt-lg-5 mt-lg-5">
+          <div class="row img align-content-end justify-content-center">
+            <img src="./images/assessment.png" alt="">
+          </div>
+          <div class="col px-0">
+            <h3>Независимая оценка ущерба вашему ТС</h3>
+            Составим акт осмотра <br> и тех состояния ТС <br>
+            и грамотно
+            оценим ваш страховой случай
+          </div>
+        </div>
+        <div class="col-8 col-md-6 col-lg-3 pt-lg-5 mt-lg-5">
+          <div class="row img align-content-end justify-content-center">
+            <img src="./images/money.png" alt="">
+          </div>
+          <div class="col px-0">
+            <h3>Быстрая выплата из нашего кармана</h3>
+            Подписываем договор о сотрудничестве и возмещаем вам
+            до 80% ущерба в течение 3 дней
+          </div>
+        </div>
+        <div class="col-8 col-md-6 col-lg-3">
+          <div class="row img align-content-end justify-content-center">
+            <img src="./images/damage.png" alt="">
+          </div>
+          <div class="col px-0">
+            <h3>Взыскание ущерба по ОСАГО и КАСКО</h3>
+            Самостоятельно и в рамках закона добиваемся выплат
+            от страховой, экономя ваше время и нервы
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="professional" class="professional">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h2>Мы на практике доказываем <r>профессионализм</r> компании</h2>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-5 order-1" align="right">
+          <div class="row justify-content-center">
+            <h5>5</h5>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start pl-2">
+              <div class="col col-md-9 text-center text-md-left">
+                лет опыта работы
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 order-2 order-md-3" align="right">
+          <div class="row justify-content-center">
+            <h5>300+</h5>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start pl-2">
+              <div class="col col-md-9 text-center text-md-left">
+                разрешенных ситуаций
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 order-3 order-md-5" align="right">
+          <div class="row justify-content-center">
+            <div class="row col-2"></div>
+            <h5>1+</h5>
+            <div class="row col-2 pl-4">
+              <h5 class="align-self-end"><small>млн руб</small></h5>
+            </div>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start pl-2">
+              <div class="col-5 col-md-9 text-center text-md-left">
+                уже выплачено нашим клиентам
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 order-4 order-md-2" align="right">
+          <div class="row justify-content-center">
+            <h5>86%</h5>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start">
+              <div class="col-7 col-md-9 text-center text-md-left">
+                клиентов обращаются к нам по рекомендации
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-5 order-md-4" align="right">
+          <div class="row justify-content-center">
+            <h5>24/7</h5>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start">
+              <div class="col-6 col-md-9 text-center text-md-left">
+                мы готовы выехать на помощь
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-6" align="right">
+          <div class="row justify-content-center">
+            <div class="row col-1 justify-content-end">
+              <h5 class="align-self-end"><small>от</small></h5>
+            </div>
+            <h5>1000</h5>
+            <div class="row col-auto pl-4">
+              <h5 class="align-self-end"><small>руб</small></h5>
+            </div>
+          </div>
+          <div class="col col-md-9" align="left">
+            <div class="row justify-content-center justify-content-md-start">
+              <div class="col-7 col-md-9 text-center text-md-left">
+                выезд комиссара
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="know">
+    <div class="container">
+      <h2>
+        <r>Важно</r> знать:
+      </h2>
+
+      <div class="col" style="padding-top: 70px">
+        <div class="know-1 col-lg-1 pt-3 pt-md-0" align="center">
+          <div class="btn-group dropdown">
+            <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="button-drop row justify-content-center align-items-center">+</div>
+            </button>
+            <div class="dropdown-menu p-2">
+              Аварийный комиссар — это либо работник страховой
+              компании, который действует в её интересах,
+              либо независимое физическое или юридическое лицо,
+              у которого в интересах помощь вам.
+              Мы же относимся ко второму типу: самый объективный
+              и надежный вариант для решения ваших проблем
+            </div>
+          </div>
+        </div>
+        <div class="know-2 col-lg-1 pt-3 pt-md-0" align="center">
+          <div class="btn-group dropright">
+            <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="button-drop row justify-content-center align-items-center">+</div>
+            </button>
+            <div class="dropdown-menu p-2">
+              Страховые компании часто скрывают реальную сумму
+              ущерба и если не обладать достаточными знаниями
+              и опытом в юридических вопросах, есть риск
+              не получить часть страховой выплаты
+            </div>
+          </div>
+        </div>
+        <div class="know-3 col-lg-1 pt-3 pt-md-0" align="center">
+          <div class="btn-group dropleft">
+            <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="button-drop row justify-content-center align-items-center">+</div>
+            </button>
+            <div class="dropdown-menu p-2">
+              В результате эмоционального напряжения и стресса
+              в следствии ДТП можно упустить множество важных деталей
+              документально, из-за которых в последствии могут
+              возникнуть трудности. Оставьте это профессионалам
+            </div>
+          </div>
+        </div>
+        <div class="know-4 col-lg-1 pt-3 pt-md-0" align="center">
+          <div class="btn-group dropdown">
+            <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="button-drop row justify-content-center align-items-center">+</div>
+            </button>
+            <div class="dropdown-menu p-2">
+              Мы гарантированно добиваемся выплат от страховой,
+              потому как изначально возмещаем вам до 80% ущерба
+              со своего кармана. Гарантия результата и в наших
+              интересах в том числе
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="professional" class="professional">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <h2>Мы на практике доказываем <r>профессионализм</r> компании</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center" align="center">
-                    <div class="col-12 col-md-5 order-1">
-                        <h5>5</h5>
-                        лет опыта работы
-                    </div>
-                    <div class="col-12 col-md-5 order-2 order-md-3">
-                        <h5>50+</h5>
-                        разрешенных ситуаций
-                    </div>
-                    <div class="col-12 col-md-5 order-3 order-md-5">
-                        <h5>300</h5>
-                        уже выплачено нашим клиентам
-                    </div>
 
-                    <div class="col-12 col-md-5 order-4 order-md-2">
-                        <h5>86%</h5>
-                        клиентов обращаются к нам по рекомендации
-                    </div>
-                    <div class="col-12 col-md-5 order-5 order-md-4">
-                        <h5>24/7</h5>
-                        мы готовы выехать на помощь
-                    </div>
-                    <div class="col-12 col-md-5 order-6">
-                        <h5>1000</h5>
-                        выезд комиссара
-                    </div>
+  </div>
 
+  <div id="contacts">
+    <h2>Наши контакты:</h2>
+    <div class="row contacts align-items-center justify-content-center">
+      <div class="row border  justify-content-center">
+        <div class="col-12 mt-lg-5">
+          <div class="media justify-content-between">
+            <img src="./images/map.png" class="align-self-center mx-auto" alt="...">
+            <div class="media-body col-10">
+              <h6 class="mt-0">Адрес:</h6>
+              г. Севастополь, Ул. Маринеско, 1-А
             </div>
+          </div>
+          <div class="media justify-content-between">
+            <img src="./images/vk.png" class="align-self-center mx-auto" alt="...">
+            <div class="media-body col-10">
+              <h6 class="mt-0">Мы вконтакте:</h6>
+              https://vk.com/auto92expert
+            </div>
+          </div>
+          <div class="media justify-content-between">
+            <img src="./images/tel.png" class="align-self-center mx-auto" alt="...">
+            <div class="media-body col-10">
+              <h6 class="mt-0">Телефон:</h6>
+              8 978 1000 792
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="know">
-        <div class="container">
-            <h2><r>Важно</r> знать:</h2>
-
-            <div class="col d-none d-md-block" style="padding-top: 70px">
-                <div class="know-1 col-lg-1 pt-3 pt-md-0" align="center">
-                    <div class="btn-group dropdown">
-                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
-                        <div class="dropdown-menu p-2">
-                            Аварийный комиссар — это либо работник страховой
-                            компании, который действует в её интересах,
-                            либо независимое физическое или юридическое лицо,
-                            у которого в интересах помощь вам.
-                            Мы же относимся ко второму типу: самый объективный
-                            и надежный вариант для решения ваших проблем
-                        </div>
-                    </div>
-                </div>
-                <div class="know-2 col-lg-1 pt-3 pt-md-0"  align="center">
-                    <div class="btn-group dropright">
-                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
-                        <div class="dropdown-menu p-2">
-                            Страховые компании часто скрывают реальную сумму
-                            ущерба и если не обладать достаточными знаниями
-                            и опытом в юридических вопросах, есть риск
-                            не получить часть страховой выплаты
-                        </div>
-                    </div>
-                </div>
-                <div class="know-3 col-lg-1 pt-3 pt-md-0"  align="center">
-                    <div class="btn-group dropleft">
-                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
-                        <div class="dropdown-menu p-2">
-                            В результате эмоционального напряжения и стресса
-                            в следствии ДТП можно упустить множество важных деталей
-                            документально, из-за которых в последствии могут
-                            возникнуть трудности. Оставьте это профессионалам
-                        </div>
-                    </div>
-                </div>
-                <div class="know-4 col-lg-1 pt-3 pt-md-0" align="center">
-                    <div class="btn-group dropdown">
-                        <button class="row button-drop-bg justify-content-center align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="button-drop row justify-content-center align-items-center">+</div></button>
-                        <div class="dropdown-menu p-2">
-                            Мы гарантированно добиваемся выплат от страховой,
-                            потому как изначально возмещаем вам до 80% ущерба
-                            со своего кармана. Гарантия результата и в наших
-                            интересах в том числе
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
 
     </div>
+    <div align="center" id="map" class="map d-none d-md-block">
+      <script type="text/javascript">
+        ymaps.ready(init);
 
-    <div id="contacts">
-        <h2>Наши контакты:</h2>
-        <div class="row contacts align-items-center justify-content-center">
-            <div class="row border  justify-content-center">
-                <div class="col-12 mt-lg-5">
-                    <div class="media justify-content-between">
-                        <img src="./images/map.png" class="align-self-center mx-auto" alt="...">
-                        <div class="media-body col-10">
-                            <h6 class="mt-0">Адрес:</h6>
-                            г. Севастополь, Ул. Маринеско, 1-А
-                        </div>
-                    </div>
-                    <div class="media justify-content-between">
-                        <img src="./images/vk.png" class="align-self-center mx-auto" alt="...">
-                        <div class="media-body col-10">
-                            <h6 class="mt-0">Мы вконтакте:</h6>
-                            https://vk.com/auto92expert
-                        </div>
-                    </div>
-                    <div class="media justify-content-between">
-                        <img src="./images/tel.png" class="align-self-center mx-auto" alt="...">
-                        <div class="media-body col-10">
-                            <h6 class="mt-0">Телефон:</h6>
-                            8 978 1000 792
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div align="center" id="map" class="map">
-            <script type="text/javascript">
-            ymaps.ready(init);
-            function init(){var myMap = new ymaps.Map("map", {
-                  center: [44.574575, 33.465703],
-                  zoom: 18});
-                  myGeoObject = new ymaps.GeoObject({
-                  }, {preset: 'islands#blackStretchyIcon',
-                      draggable: true});
-              myMap.geoObjects
-                  .add(new ymaps.Placemark([44.574575, 33.465703], {
-                      balloonContent: 'Auto <strong>Expert</strong>'
-                  }, {preset: 'islands#icon',
-                      iconColor: '#e2481f'}))}
-            </script>
-        </div>
+        function init() {
+          var myMap = new ymaps.Map("map", {
+            center: [44.574575, 33.465703],
+            zoom: 18
+          });
+          myGeoObject = new ymaps.GeoObject({}, {
+            preset: 'islands#blackStretchyIcon',
+            draggable: true
+          });
+          myMap.geoObjects
+            .add(new ymaps.Placemark([44.574575, 33.465703], {
+              balloonContent: 'Auto <strong>Expert</strong>'
+            }, {
+              preset: 'islands#icon',
+              iconColor: '#e2481f'
+            }))
+        }
+      </script>
     </div>
+  </div>
 
-    <footer class="footer border">
-        <div class="container">
-            <div class="row">
-                <div class="col-5 logo">
-                    <r>Auto</r>expert
-                </div>
-                <div class="col-4 text-uppercase">
-                    <a href="#home">На главную</a><br>
-                    <a href="#">Политика конфиденциальности</a>
-                </div>
-                <div class="col-3">
-                    <a href="tel:+79781000792"><r class="number">8 978 1000 792</r></a><br>
-                    <r class="tel">Бесплатная консультация</r>
-                </div>
-            </div>
+  <footer class="footer border">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-5 logo">
+          <a href="#home"><r>Auto</r>expert</a><br>
         </div>
-    </footer>
+        <div class="col-12 col-md-4 text-uppercase text-center text-md-left order-3 order-md-1">
+          <a href="#home">На главную</a><br>
+        </div>
+        <div class="col-6 col-md-3 order-1 order-md-2">
+          <a href="tel:+79781000792">
+            <r class="number">8 978 1000 792</r>
+          </a><br>
+          <r class="tel d-none d-md-block">Бесплатная консультация</r>
+        </div>
+        <div class="col-6 order-2 d-md-none">
+          Аварийный комиссар в севастополе
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
