@@ -81,7 +81,7 @@ img {height: 100%}
 
 .know {
     padding-top: 50px;
-    height: 900px;
+    
     color: #383838;
 }
 
@@ -112,6 +112,7 @@ img {height: 100%}
     background-color: rgba(245, 18, 74, 0.23);
 }
 
+.card {border: 1px solid #f5124a}
 .dropdown-menu {
     border: 1px solid #f5124a;
     width: 320px;
@@ -121,8 +122,7 @@ img {height: 100%}
 
 }
 
-
-.contacts {
+.contact {
     background-color: #ffffff;
     box-shadow: 6px 2px 58px 1px rgba(130, 130, 130, 0.29);
     border-radius: 6px;
@@ -131,12 +131,14 @@ img {height: 100%}
     color: #383838;
 }
 
-.contacts .border {
+.contact .border {
+    width: 93%;
+    height: 93%;
     border-radius: 6px;
     border: 2px dashed #f5124a!important;
 }
 
-.contacts img {
+.contact img {
     height: auto;
 }
 
@@ -148,7 +150,7 @@ img {height: 100%}
 }
 
 .footer {
-    padding: 38px 0 80px 0;
+    padding: 38px 0 30px 0;
     color: #7c7c7c;
 }
 .footer .logo{color: #000000}

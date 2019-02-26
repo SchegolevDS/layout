@@ -15,8 +15,8 @@
 
     .logo {font-size: 16px}
     .number {font-size: 20px}
-    .consultation {font-size: 17px;}
-    .img-circleblock{background-size: 20px;}
+    .consultation {font-size: 17px}
+    .img-circleblock{background-size: 20px}
 
     .button, .button:hover {
         margin-top: 60px;
@@ -40,6 +40,9 @@
     }
 
     .professional {padding: 20px 0 50px 0;font-size: 15px;line-height: 19px}
+    .table {padding-top: 8px}
+    .contacts {background: url(../images/map.jpg) center; height:320px}
+    .contact {height: 265px;}
     .footer {font-size: 14px;font-weight: 500;line-height: 18px}
 }
 
@@ -103,8 +106,7 @@
     .know-3 {margin-left: 325px; margin-top: 160px}
     .know-4 {margin-left: 675px}
 
-    .contacts {width: 284px;height: 260px;font-size: 16px;margin: 230px 0 -660px 20px}
-    .contacts .border {width: 246px;height: 224px)
+    .contact {width: 284px;height: 260px;font-size: 16px;margin: 230px 0 -660px 20px}
 }
 /* Большие девайсы (десктопы, >= 992px)*/
 @media (min-width: 992px) {
@@ -114,9 +116,8 @@
     .title {padding-left: 46px;font-size: 17px;}
     .button {margin-left: 80px;}
     .car {background-size: contain;}
-    .contacts {width: 484px;height: 460px;font-size: 25px;margin: 260px 0 -660px 430px}
-    .contacts .border {width: 446px;height: 424px;)
-
+    .know {height: 900px}
+    .contact {width: 484px;height: 460px;font-size: 25px;margin: 260px 0 -660px 430px}
 }
 
 /* Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
